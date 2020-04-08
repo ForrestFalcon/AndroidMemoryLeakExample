@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">AndroidMemoryLeakExample</string>
+
+    <string name="title_memory_leak_via_static_reference">Leak through static references</string>
+    <string name="title_leak_through_long_running_tasks">Leak through long running tasks</string>
+
+    <string name="text_google_example">Leaking activity context or not?</string>
+    <string name="text_leak_to_singleton">Leaking activity context to a singleton object</string>
+    <string name="text_leak_to_static_view">Leaking activity to static view</string>
+    <string name="text_leak_to_static_variable">Leaking activity to static variable</string>
+    <string name="text_leak_to_instance_inner_class">Static variable to an instance of inner class</string>
+    <string name="text_leak_to_thread">Leak activity through inner class runnable Thread</string>
+    <string name="text_leak_to_handler">Leak activity through inner class runnable Handler</string>
+    <string name="text_leak_to_async_task">Leak activity through anonymous class of AsyncTask</string>
+    <string name="text_leak_thread">Leak threads</string>
+
+    <string name="leak_explanation_singleton">This activity leaks activity to a singleton manager.</string>
+    <string name="leak_explanation_static_instance">This activity leaks the activity to a static instance.</string>
+    <string name="leak_explanation_static_variable">This activity leaks activity to a static variable of an inner class.</string>
+    <string name="leak_explanation_async_task">This activity leaks activity instance to Anonymous class of AsyncTask.</string>
+    <string name="leak_explanation_handler">This activity leaks activity to handler and runnable inner class.</string>
+    <string name="leak_explanation_static_view">This activity leaks activity to a static view instance.\n\n%1$s</string>
+    <string name="leak_explanation_leak_threads">This activity starts threads but does not terminate them when destroyed.</string>
+
+    <string name="leak_explanation_runnable">This activity creates and starts long running runnable as an inner class, which leaks the activity instance.</string>
+    <string name="instruction_check_for_leaks">Go back, force a GC and check HPROF for leaks</string>
+
+</resources>
