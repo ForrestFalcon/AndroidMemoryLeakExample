@@ -4,4 +4,4 @@
 This app shows common patterns of memory leaks in Android development and how to fix them.
 
 ## Credit
-This app is higly based on https://github.com/frank-tan/SinsOfMemoryLeaks
+This app is based on https://github.com/frank-tan/SinsOfMemoryLeaks
